@@ -1,0 +1,94 @@
+:root {
+    --pink: #ffc0cb;
+    --hot-pink: #ff69b4;
+    --white: #fff;
+    --dark: #333;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: var(--pink);
+    color: var(--dark);
+  }
+  
+  header {
+    text-align: center;
+    padding: 2rem;
+    background: var(--hot-pink);
+    color: var(--white);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    background: var(--white);
+    padding: 1rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: var(--hot-pink);
+    font-weight: bold;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 3rem;
+  }
+  
+  .gallery {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    background: var(--white);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    flex: 1 1 30%;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  input, textarea {
+    padding: 0.8rem;
+    border: none;
+    border-radius: 0.5rem;
+  }
+  
+  button {
+    background: var(--hot-pink);
+    color: var(--white);
+    padding: 0.8rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background: #e55ca8;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: var(--white);
+    color: var(--hot-pink);
+  }
+  
+  .hidden {
+    display: none;
+  }

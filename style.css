@@ -92,3 +92,25 @@
   .hidden {
     display: none;
   }
+  .project-images {
+    margin-top: 2rem;
+  }
+  
+  .image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .image-grid img {
+    width: 500px; /* or 150px, 100% etc. */
+    height: auto;
+    border-radius: 1rem;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+  
+  }
+  
+  .image-grid img:hover {
+    transform: scale(1.05);
+  }
